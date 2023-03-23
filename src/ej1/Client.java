@@ -15,26 +15,26 @@ public class Client {
         Zona z8 = new Zona(100, "Irpavi 2", "1234");
 
 
-        Composite urbe = new Composite(0,"Zona sur","123123");
+        Composite urbe = new Composite(0,"Zona sur1","123123");
 
         urbe.add(z1);
         urbe.add(z2);
         urbe.operacion();
 
-        Composite urbe1 = new Composite(0,"Zona sur","123123");
+        Composite urbe1 = new Composite(0,"Zona sur2","123123");
 
         urbe1.add(z3);
         urbe1.add(z4);
         urbe1.operacion();
 
 
-        Composite urbe2 = new Composite(0,"Zona sur","123123");
+        Composite urbe2 = new Composite(0,"Zona sur3","123123");
 
         urbe2.add(z5);
         urbe2.add(z6);
         urbe2.operacion();
 
-        Composite urbe3 = new Composite(0,"Zona sur","123123");
+        Composite urbe3 = new Composite(0,"Zona sur4","123123");
 
         urbe3.add(z7);
         urbe3.add(z8);
@@ -47,8 +47,8 @@ public class Client {
 
         Composite departamento1 = new Composite(0,"Cochabamba","1231233123");
 
-        departamento1.add(urbe);
-        departamento1.add(urbe1);
+        departamento1.add(urbe2);
+        departamento1.add(urbe3);
 
         Composite bolivia = new Composite(0,"bolivia","46346");
 

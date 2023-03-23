@@ -30,6 +30,7 @@ public class Zona extends Component{
 
     @Override
     public void operacion() {
+        System.out.println();
         System.out.println("El nombre de este lugar es: "+getNombre());
         System.out.println("La cantida de gente en este lugar es de: "+getGente());
         System.out.println("El POA es: "+getPoa());
