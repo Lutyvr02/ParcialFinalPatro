@@ -2,9 +2,10 @@ package ej2;
 
 public class Audifonos extends Decorator{
     private Decorator decorator;
-    public Audifonos(Celular celular,int costo) {
+    public Audifonos(Celular celular, Decorator decorator, int costo) {
         super(celular);
-        this.costo =costo;
+        this.decorator = decorator;
+        this.costo = costo;
     }
 
     private int costo;

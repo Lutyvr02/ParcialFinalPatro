@@ -2,12 +2,11 @@ package ej2;
 
 public class Cargador extends Decorator{
     private Decorator decorator;
-    public Cargador(Celular celular, int costo) {
+    public Cargador(Celular celular, Decorator decorator, int costo) {
         super(celular);
-        this.costo =costo;
+        this.decorator = decorator;
+        this.costo = costo;
     }
-
-    private int capacidad;
 
     private int costo;
 
